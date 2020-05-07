@@ -23,7 +23,7 @@ def run
             Api.getDrinkDetails(drink) if !drink.instructions
             print_drink(drink)
 
-        # elsif
+        elsif input == "ingredients"
 
         else
             puts "I do not undertstand, please try again"
